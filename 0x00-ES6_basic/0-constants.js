@@ -5,7 +5,11 @@ export function taskFirst() {
 
 export function taskNext() {
   let combination = 'But sometimes let';
-  combination += getLast();
+  combination   
+ += getLast();
 
   return combination;
+}
+export function getLast() {
+  return ' is okay';
 }
